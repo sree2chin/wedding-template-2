@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -317,19 +317,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 400px;
   }
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 600px;
   display: table;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: 600px;
+    height: 400px;
   }
 }
 .fh5co-cover.fh5co-cover-sm {
@@ -1075,16 +1075,17 @@ form label {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
 }
 .couple-half .groom img, .couple-half .bride img {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  object-fit: contain;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
